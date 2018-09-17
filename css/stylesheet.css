@@ -1,0 +1,544 @@
+/* Generalidades del documento*/
+body, html{
+  background-color: #fff;
+  height: 100%;
+  font-family: Open Sans;
+  color: #000;
+}
+
+/*Nav Bar*/
+#nav-bar{
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+html, body{
+  overflow: auto;
+}
+
+/*Carousel*/
+
+.carousel-caption{
+  text-align: left;
+  color: #fff;
+  top: 75%;
+  left: 40%;
+}
+
+.carousel-caption h1{
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.btn-light{
+  border-radius: 65px;
+  font-size: 12px;
+}
+
+.btn-light:hover{
+  color: #fff;
+  background-color: #a95ca4;
+  border-color: #a95ca4
+}
+
+.espaciado{
+  padding: 50px 0px;
+}
+
+/*Sec Cartelera*/
+#sec-cartelera{
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(67,67,67,1) 100%);
+}
+
+.titulo span{
+	font-size: 18px;
+}
+
+.titulo{
+	padding: 0px 100px 55px 35px;
+  font-family: Oswald;
+  font-weight: 500;
+  color: white;
+}
+
+.row h3{
+  font-family: Oswald;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+#sec-cartelera .cartelera{
+  position: relative;
+}
+#sec-cartelera .cartelera-texto{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+#sec-cartelera .cartelera-texto h3{
+  color: #fff;
+  font-weight: 600;
+}
+
+#sec-cartelera .cartelera:hover .cartelera-texto{
+  opacity: 1;
+  transition: all ease-in-out 0.5s;
+}
+
+.boton-cartelera{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-dark{
+  border-radius: 65px;
+  font-size: 12px;
+  color: #1e1d2b;
+  background-color: #fff;
+  border-color: #1e1d2b;
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+
+.btn-dark:hover{
+  color: #1e1d2b;
+  background-color: #a95ca4;
+  border-color: #a95ca4
+}
+
+/*Promociones*/
+#sec-promociones{
+  background-image: url(../img/cinema.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+
+}
+
+/*#sec-promociones*/
+
+#sec-promociones .padre, #sec-clases .info-clase{
+	position: relative;
+}
+
+#sec-promociones .hijo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.90);
+	padding: 15px 25px;
+	margin-right: 100px;
+	color: white;
+}
+
+#sec-promociones .hijo h3{
+	color: #fff;
+	font-weight: 600;
+	text-align:center;
+}
+
+/*Footer*/
+#foot{
+  height: 50%;
+}
+
+footer{
+  color: #fff;
+  text-align: right;
+  padding: 10px 0px;
+  margin-bottom: -50px;
+  padding-bottom: -50px;
+  background-color: #1e1d2b;
+  font-size: 12px;
+  height: auto;
+
+}
+
+#footer .img{
+	max-width: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100px;
+
+}
+
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 2px 0;
+  text-align: center;
+	height: 5;
+}
+footer h3{
+	color: white;
+	font-weight: 700;
+	font-size: 26px;
+}
+footer h3 span{
+	color: #93007B;
+}
+
+.redes{
+	margin: 45px 0;
+}
+.redes li{
+	display: inline-block;
+}
+
+.redes i{
+size: 15px;
+margin-top: 22px;
+}
+
+.redes a{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: white;
+	text-decoration: none;
+}
+.redes a:hover{
+	background-color: #fff;
+	color: #C800CD;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.copyright{
+	margin-top: 67px;
+}
+
+.logof{
+	margin-top:50px;
+
+}
+
+/*Contacto*/
+#sec-breadcrumb{
+	background-color: #f3f3f3;
+}
+#sec-breadcrumb .breadcrumb{
+	background-color: transparent;
+	border-radius: 0;
+}
+.letra-morada{
+	color: rgba(24,7,37,1.00);
+}
+
+.barra{
+	background-color:  rgba(24,7,37,1.00);
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+#sec-contact .sub-titulo{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#sec-contact h4{
+	font-weight: 700;
+	text-align: center;
+}
+
+#map{
+	width: 100%;
+	min-height: 300px;
+}
+#sec-content h1{
+  color: #000;
+	text-align: left;
+}
+
+/*Blog*/
+#blog .titulo{
+  color: black;
+}
+
+#blog .padre, #blog .info-clase{
+	position: relative;
+}
+
+#blog .hijo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.60);
+	padding: 15px 25px;
+	color: white;
+  min-height: 50px;
+}
+
+#blog .hijo h1{
+	color: #fff;
+	font-weight: 400;
+  font-size: 24px;
+  font-family: 'Oswald';
+}
+
+#blog .fecha{
+  font-size: 16px;
+  font-style: italic;
+}
+
+#blog .teaser{
+font-size: 14px;
+}
+
+#blog .mas{
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#blog .articulos{
+  text-align: right;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+/*Acerca de Nosotros*/
+#sec-acerca{
+
+}
+#sec-titular h2{
+	color: rgb(0, 0, 0);
+  margin-bottom: -50px;
+}
+
+#sec-acerca .btn-centro1,.btn-centro2, .btn-centro3,.btn-centro4,.btn-centro5,.btn-centro6,.btn-centro7,.btn-centro8{
+	margin-left: 15px;
+	background-color:#000;
+	color: #FFFFFF;
+	width: 100%;
+	bottom: 0;
+	padding: 15px 35px;
+	margin-top: 20px;
+	border-radius: 0px;
+	font-size: 15px;
+}
+
+/*Proximamente*/
+#sec-estreno h3{
+	text-align: left;
+  font-size: 24px;
+}
+#sec-estreno2 h3{
+	text-align: left;
+  font-size: 24px;
+}
+#sec-estreno3 h3{
+	text-align: left;
+  font-size: 24px;
+}
+
+.btn-mas{
+	margin-top: 20px;
+	margin-left: 400px;
+}
+
+#sec-estreno .btn,.btn-light,.btn-naranja{
+  font-family: 'Open Sans';
+}
+
+#sec-titular{
+ font-family: Oswald;
+ font-weight: 500;
+ margin-bottom: -50px;
+}
+
+#sec-estreno{
+	font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: justify;
+}
+#sec-estreno2{
+	font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: justify;
+}
+#sec-estreno3{
+	font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.bar{
+	background-color: #1E1D2B;
+	width: 900px;
+	margin-left: 50;
+	margin-right: 50;
+	height: 3px;
+}
+
+/*Cartelera*/
+.ocultar{
+	display: none;
+}
+
+#sec-fila1 .info-peli{
+	position: relative;
+}
+#sec-fila2 .info-peli{
+	position: relative;
+}
+
+.info-texto a{
+	color: #fff;
+}
+
+#sec-fila1 article{
+		margin-top: 10px;
+	}
+
+#sec-fila2 article{
+		margin-top: 10px;
+	}
+
+.back-to-top {
+    text-align: center;
+    background: rgba(0,0,0,0.40);
+    color: #fff;
+    display: none;
+    width: 40px; height: 40px; line-height: 40px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 35px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    z-index: 9999;
+}
+.back-to-top:hover {
+    opacity: 1;
+}
+.back-to-top::before{
+    content: "\f106";
+}
+
+#sec-fila1 .info-peli:hover .info-texto,
+.info-peli:hover .info-texto{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+#sec-fila2 .info-peli:hover .info-texto,
+.info-peli:hover .info-texto{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+#sec-fila1 .info-texto,
+.info-texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6));
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+#sec-fila2 .info-texto,
+.info-texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+.icono{
+	margin: 45px 0;
+	text-align: center;
+	margin-left: 125px;
+}
+
+.icono i{
+	margin-top: 5px;
+}
+
+.icono a{
+	width:60px;
+	height: 30px;
+	line-height: 60px;
+	border:2px solid rgba(24,7,37,1.00);
+	display: block;
+	border-radius: 15px 15px 15px 15px;
+	color: rgba(24,7,37,1.00);
+	text-decoration: none;
+	transition: all ease 0.3s;
+}
+.icono a:hover{
+	background-color: rgba(24,7,37,1.00);
+	color: #252525;
+	transition: all ease 0.3s;
+}
+
+
+
+/*Media Queries*/
+@media (max-width:600px){
+  .carousel-caption{
+    text-align: center;
+    left: 50%;
+    top: 50%;
+  }
+
+  .carousel-caption h1{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:900px){
+  .carousel-caption{
+    top:60%;
+  }
+}
+
+@media (max-width:770px){
+  .cartelera{
+    margin: 10px 0 10px 0;
+  }
+}
