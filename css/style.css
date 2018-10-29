@@ -1,0 +1,335 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+.tipo{
+font-family: 'Oswald', sans-serif;	
+}
+
+.header-area.sticky {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+h1{
+	font-family: 'Oswald' sans-serif;
+	text-transform: uppercase;
+}
+
+.espaciado{
+ padding: 3% 0;
+}
+
+/*SEC HERO*/
+#sec-hero{
+	background-image: url(../img/dunkirk-hero.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	height: 80vh;
+	color: #ffffff;
+	text-align: left;
+	padding: 20% 0;
+}
+
+#sec-hero h1{
+	font-family: 'Oswald' sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 80px;
+}
+
+#sec-hero h2{
+	font-size: 18px;
+	font-weight:600;
+}
+
+
+.btn-light{
+  border-radius: 65px;
+  font-size: 12px;
+}
+
+.btn-light:hover{
+  color: #fff;
+  background-color: #a95ca4;
+  border-color: #a95ca4
+}
+
+/*SEC Disponibilidad*/
+#sec-disponibilidad{
+	height: 40vh;
+}
+
+#sec-disponibilidad .texto{
+	padding-top: 35%;
+}
+
+#sec-disponibilidad h1{
+	font-family: 'Oswald' sans-serif;
+	font-size: 30px;
+}
+
+#sec-disponibilidad h2{
+	font-size: 18px;
+}
+
+/*Disponibilidad*/
+#sec-features{
+	text-align: center;
+}
+
+#sec-features h1{
+	font-family: 'Oswald' sans-serif;
+	text-transform: uppercase;
+}
+
+.work{
+	position: relative;
+	overflow: hidden;
+}
+
+.work-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(61,61,61,0.60);
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	z-index: 1;
+}
+
+.work-info{
+	position: absolute;
+	width: 100%;
+	bottom: 100%;
+	left: 0;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+	text-align: center;
+	z-index: 2;
+}
+
+.work:hover .work-info{
+	opacity: 1;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.work:hover .work-bg{
+	opacity: 1;
+}
+
+.work img{
+	transition: all 0.3s ease-in-out;
+}
+
+.work:hover img{
+	transform: scale(1) rotate(0);
+}
+
+.work-info h1{
+	font-size: 20px;
+	font-family: 'Oswald' sans-serif;
+	text-transform: uppercase;
+}
+
+.work-info p{
+	font-size: 14px;
+}
+
+/*Contenido*/
+.titulo{
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-weight:600;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+#sec-carousel{
+	margin-top: 165px;
+  background-image: url(../img/Online-streaming-cover-Pixabay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:  80vh;
+  color: #fff;
+  text-align: center;
+  padding: 2% 0;	
+}
+
+.icon-video{
+	padding-top: 80px;
+	font-size: 45px;
+}
+
+#sec-carousel h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+#sec-carousel h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  color: #CCC;
+  letter-spacing: 2px;
+  padding-bottom: 40px;  
+}
+
+.app-carousel {
+    margin-top: 50px;
+	z-index: 1;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+	padding-top: 50px;
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #fff !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fff;
+    border: 0 !important;
+}
+
+.owl-carousel .owl-item img{
+  width: inherit;
+}
+
+.single-shot{
+  align-items: center;
+}
+
+/*PRUEBA*/
+#sec-prueba{
+	text-align:center;
+	padding-bottom: 5px;
+}
+.btn-dark{
+  border-radius: 65px;
+  font-size: 15px;
+  color: #1e1d2b;
+  background-color: #fff;
+  border-color: #1e1d2b;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn-dark:hover{
+  color: #1e1d2b;
+  background-color: #a95ca4;
+  border-color: #a95ca4
+}
+
+/*FOOTER*/
+#foot{
+  height: 80%;
+}
+
+footer{
+  color: #fff;
+  text-align: right;
+  padding: 10px 0px;
+  margin-bottom: -50px;
+  padding-bottom: -50px;
+  background-color: #1e1d2b;
+  font-size: 12px;
+  height: auto;
+
+}
+
+#footer .img{
+	max-width: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100px;
+
+}
+
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 2px 0;
+  text-align: center;
+	height: 5;
+}
+footer h3{
+	color: white;
+	font-weight: 700;
+	font-size: 26px;
+}
+footer h3 span{
+	color: #93007B;
+}
+
+.redes{
+	margin: 45px 0;
+}
+.redes li{
+	display: inline-block;
+}
+
+.redes i{
+size: 15px;
+margin-top: 22px;
+}
+
+.redes a{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: white;
+	text-decoration: none;
+}
+.redes a:hover{
+	background-color: #fff;
+	color: #C800CD;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.copyright{
+	margin-top: 67px;
+}
+
+.logof{
+	margin-top:50px;
+
+}
